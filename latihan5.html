@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 5</title>
+    <style>body {
+        background-color: rgb(226, 161, 209);}
+
+        form {
+            background-color: #a7e4c4;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 800px;
+        }
+        table {
+            width: 90%;
+            size: 50px;
+            margin-bottom: 50px;
+        
+        }
+
+        td {
+            padding: 10px 0;
+        }
+
+        input[type="text"], select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #7f0657;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+
+        }
+
+
+        h1 {
+            text-align: left;
+            font-size: 50px;
+            color: #571a64;
+            margin-bottom: 20px;}
+      </style>
+
+</head>
+<body>
+
+    <h1>F O R M U L I R</h1>
+
+    <form action="">
+
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>: </td>
+                <td><input type="text" name="Nama"> </td>
+                </td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>: </td>
+                <td><input type="text" name="NIM"> </td>
+                </td>
+            </tr>
+            <tr>
+                <td>TempatLahir</td>
+                <td>: </td>
+                <td><input type="text" name="birthplace"> </td>
+                </td>
+            </tr>
+            <tr>
+                <td>TanggalLahir</td>
+                <td>: </td>
+                <td><input type="date" name="tanggallahir"><br></td>
+            </tr>
+            <tr> 
+                <td>Alamat</td>
+                <td>: </td>
+                <td><input type="text" name="alamat"> </td>
+                </td></tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>: </td>
+                    <td>     
+                        <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+                        <input type="radio" name="jk" value="Perempuan"> Perempuan 
+                    </td></tr>
+                    <tr>
+                        <td>Hobi</td>
+                        <td>: </td>
+                        <td> <input type="checkbox" name="hobi" value="baca"> baca
+                            <input type="checkbox" name="hobi" value="mancing"> mancing
+                            <input type="checkbox" name="hobi" value="nulis"> nulis
+                            <input type="checkbox" name="hobi" value="desain"> desain
+                            <input type="checkbox" name="hobi" value="olah raga"> olahraga
+                            <input type="checkbox" name="hobi" value="rebahan"> rebahan 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Program Studi</td>
+                        <td>:</td>
+                        <td><select name="Prodi">
+                            <option value="PGSD">Pendidikan Guru Sekolah Dasar</option>
+                            <option value="PGPAUD">Pendidikan Guru Pendidikan Anak Usia Dini</option>
+                            <option value="PKP">Pendidikan Kelautan dan Perikanan</option>
+                            <option value="SIK">Sistem Informasi Kelautan</option>
+                            <option value="LK">Logistik Kelautan</option></td>
+                    </tr>
+        </table>
+        <style>
+            input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #5e2a69;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        </style>
+        <input type="submit" value="Simpan">
+    </form>
+</body>
+</html>
